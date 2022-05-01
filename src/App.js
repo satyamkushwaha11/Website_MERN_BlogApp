@@ -2,15 +2,26 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
 } from 'react-router-dom'
-
+import "./main.scss"
+import Public_Routes from './routes/publicRoutes';
+import Private_Routes from './routes/privateRoutes';
 
 function App() {
   return (
-    <div className="App">
-       satryta
-    </div>
+    <Router>
+      <Routes>
+        {
+          [...Public_Routes, ...Private_Routes].map(({ component: Cmp, ...route }, index) => 
+            <Route
+              key={'publicRoute' + index}
+              {...route}
+              element={<Cmp />}
+            />
+          )}
+
+      </Routes>
+    </Router>
   );
 }
 
