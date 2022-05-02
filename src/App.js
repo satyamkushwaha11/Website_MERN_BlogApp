@@ -6,7 +6,6 @@ import {
 import "./main.scss"
 import Public_Routes from './routes/publicRoutes';
 import Private_Routes from './routes/privateRoutes';
-
 function App() {
   return (
     <Router>
