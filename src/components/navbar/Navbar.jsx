@@ -5,7 +5,7 @@ import Image from '../Images/Image'
 function Navbar() {
   return (
     <nav className='navbar'>
-      <div className='navbar_container'>
+      <div className='container'>
         <div className="navbar_row">
           <div className="navbar_left">
             <Link to="/">

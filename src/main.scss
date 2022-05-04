@@ -1,3 +1,4 @@
+
 @import "static/scss/base/reset";
 
 
@@ -6,5 +7,14 @@
 @import "static/scss/abstracts/variables";
 
 
+// import scss utils
+@import "static/scss/utils/utils";
+
+
+// import scss layout
+@import "static/scss/layout/grid" ;
+
+
 // import scss components
-@import "static/scss/components/navbar"
+@import "static/scss/components/navbar";
+@import "static/scss/components/login"
