@@ -1,0 +1,11 @@
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@for $i from 1 through 12{   // loop in scss
+    .col-#{$i}{
+        width: 100%/12 * $i;
+    }
+}
