@@ -317,6 +317,9 @@
   [hidden] {
     display: none !important;
   }
+  .fntSz18{
+    font-size: 18px;
+  }
   .h1,
   .h2,
   .h3,
@@ -3527,7 +3530,7 @@
     min-height: 1.5rem;
     padding-left: 1.5rem;
     -webkit-print-color-adjust: exact;
-    /* print-color-adjust: exact; */
+    print-color-adjust: exact;
   }
   .custom-control-inline {
     display: -ms-inline-flexbox;
