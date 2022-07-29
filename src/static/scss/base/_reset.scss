@@ -10,3 +10,7 @@ body{
     // background-color: white;
     font-family: 'Poppin',sans-serif;
 }
+
+.homePage_posts::-webkit-scrollbar {
+    display: none;
+}

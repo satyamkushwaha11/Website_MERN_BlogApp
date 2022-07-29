@@ -4,9 +4,11 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { APP_NAME } from "../lib/config";
 import Navbar from "../components/navbar/Navbar";
 import { getLocalStorage } from "../lib/session";
+import { startLoader } from "../lib/global";
 
 function LandingPage() {
   const navigate=useNavigate()
+  // startLoader()
   if (getLocalStorage("token")) {
     console.log("sdsd");
     // navigate('/home')

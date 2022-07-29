@@ -360,6 +360,9 @@
   h6 {
     font-size: 1rem;
   }
+  .fntSz-14{
+    font-size: 1.4rem;
+  }
   .lead {
     font-size: 1.25rem;
     font-weight: 300;
